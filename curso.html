@@ -1,49 +1,139 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="estilo.css">
+    <title>Curso</title>
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
-<body>
-        
 
-    <main>
+<body>
+    <header>
         <section>
-            <table>
-                <tr>
-                    <td colspan="3"> </td>
-                    <td> </td>
-                    <td rowspan="5"> </td>
-                </tr>
-                <tr>
-                    <td> </td>
-                    <td> </td>
-                    <td colspan="2"> </td>
-                </tr>
-                <tr>
-                    <td rowspan="2"> </td>
-                    <td> </td>
-                    <td rowspan="3"> </td>
-                    <td> </td>
-                </tr>
-                <tr>
-                    <td> </td>
-                    <td> </td>
-                </tr>
-                <tr>
-                    <td colspan="2"> </td>
-                    <td> </td>
-                </tr>
-            </table>
+            <h2>CEFET-MG - Campus Varginha - Curso Técnico</h2>
         </section>
+        <nav>
+            <a href="./index.html">Início</a>
+            <a href="./curso.html">Curso</a>
+            <a href="./faq.html">FAQ</a>
+            <a href="./contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main class="cursos">
+        <p>Curso</p>
+
+        <div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Área</th>
+                        <th>Ano</th>
+                        <th>Disciplina</th>
+                        <th>1ª Série</th>
+                        <th>2ª Série</th>
+                        <th>3ª Série</th>
+                    </tr>
+                    <tr>
+                        <th colspan="6">PARTE ESPECÍFICA</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td rowspan="11" class="bold">Técnica</td>
+                        <td rowspan="3" class="bold">1º ano</td>
+                        <td>Banco de Dados</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>Fundamentos de Informática</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>Programação I</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="4" class="bold">2º ano</td>
+                        <td>Aplicações Web I</td>
+                        <td>0</td>
+                        <td>4</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>Estrutura de Dados</td>
+                        <td>0</td>
+                        <td>4</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>Programação II</td>
+                        <td>0</td>
+                        <td>4</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>Rede de Computadores</td>
+                        <td>0</td>
+                        <td>2</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="4" class="bold">3º ano</td>
+                        <td>Aplicações Web II</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>Aplicações Móveis</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>Engenharia de Sofware</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>Montagem e Manutenção de Computadores</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>2</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Total</td>
+                        <td>8</td>
+                        <td>12</td>
+                        <td>16</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+        </div>
+
     </main>
 
     <footer>
-
+        <p>© copyleft</p>
     </footer>
-    
 </body>
+
 </html>

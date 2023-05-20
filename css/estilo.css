@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+
+/* header */
+header {
+    justify-content: center;
+}
+header section {
+    height: 8rem;
+    background-image: url("../img/banner.jpg");
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header section h2 {
+    color: white;
+    font-size: 3rem;
+}
+header nav {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: 2rem;
+    background-color: #2B75E2;
+}
+header nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+/* main do index */
+main.index {
+    font-size: 25px;
+}
+section h2 {
+    font-weight: bold;
+    padding: 10px;
+}
+.index section p, section ol li {
+    padding: 0px 10px;
+}
+.romano {
+    list-style: upper-roman;
+}
+.modalidades {
+    list-style: square;
+}
+
+/* main do curso */
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main.cursos {
+    justify-content: center;
+    align-content: center;
+}
+main.cursos p {
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 95%;
+    height: 100%;
+    font-size: 1.8rem;
+}
+table tr th, table tr td {
+    border: 2px solid black;
+    padding: 0.3rem;
+}
+table thead tr th, tfoot tr td{
+    font-weight: bold;
+}
+.bold {
+    font-weight: bold;
+}
+
+/* main do FAQ */
+main.faq ul li {
+    font-weight: bold;
+    font-size: 1.5rem;
+    list-style: decimal;
+}
+.faq h3{
+font-size: 1.5rem;
+ }
+
+ .faq section h3{
+    font-size: 1.5rem;
+ }
+
+.faq h3, .faq section ul li a {
+    font-weight: bold;
+    padding: 10px 25px;
+}
+.faq a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+    padding: 10px 25px;
+}
+.faq section {
+    height: 100vh;
+}
+
+/* main do contato */
+main.contato form {
+    display: flex;
+    width: 95%;
+    height: 100%;
+    font-size: 1.7rem;
+}
+main.contato form fieldset p{
+    padding: 5px; 
+}
+main.contato form fieldset p button {
+    background-color: #2B75E2;
+    max-width: 20%;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    border: 0.7 black;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 1rem;
+}
+main.contato form fieldset p div {
+    border-radius: 5px;
+    outline: 0;
+    border: 1px solid #000;
+    height: 5rem;
+}
+
+/* footer */
+footer {
+    height: 3rem;
+    background-color: #2B75E2;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+footer p {
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+}
